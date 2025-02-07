@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitória Vibes</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <section class="pagina" id="fundo_home">
+            <audio id="musica0" src="audio/Home.mp3" preload="auto" loop style="display:none;"></audio>
+            <div id="retangulo_home">
+                <h1>O grande</h1>
+                <h1>dia <label>chegou</label></h1>
+                <p id="texto_home">Hoje é o dia de celebrar uma pessoa muito especial. Que tal começarmos?</p>
+                <img id="presentes" src="img/presentes.png">
+                <p>Arraste para baixo</p>
+                <img id="seta_home" src="img/seta_cinza.png">
+            </div>
+        </section>
+
+        <section class="pagina" id="fundo_g1">
+            <audio id="musica1" src="audio/Memories.mp3" preload="auto" loop style="display:none;"></audio>
+            <div class="retanguloF galeria" data-pasta="g1">
+                <h1 class="texto">O Início</h1>
+                <img class="img-galeria sumir borda-rosa" src="img/g1/1.jpg">
+                <div class="fotosP_g1">
+                    <div>
+                        <img class="img-galeria borda-rosa" id="img2_g1" src="img/g1/2.jpg">
+                        <img class="img-galeria borda-rosa" id="img3_g1" src="img/g1/3.jpg">
+                    </div>
+                    <img class="img-galeria borda-rosa" src="img/g1/4.jpg">
+                </div>
+                <div class="fotosB_g1 sumir">
+                    <img class="img-galeria borda-rosa" id="img5_g1" src="img/g1/5.jpg">
+                    <img class="img-galeria borda-rosa" id="img6_g1" src="img/g1/6.jpg">
+                </div>
+                <div id="transparente">
+                    <div class="blur_efeito_grande" id="fundo_rosa"></div>
+                
+                    <img class="spinner" id="img_musica2" src="img/marron5.avif">
+                    <div id="info_music">
+                        <p id="titulo_music">Memories</p>
+                        <p id="titulo_autor2" style="margin-left: -4.73vw;;">Marron 5</p>
+                    </div>
+                    <img id="ver_mais" src="img/more_after.png" onclick="ocultar('fundo_g1')">
+                </div>
+                <div class="explicacao">
+                    <p>Apesar da letra da música ter controvérsias, escolhi ela para esses momentos pois ela me passa a vibe de lembranças boas.</p>
+                    <p>Esses momentos são bem no comecinho da Etec, onde tudo era muito novo e a inocência, as risadas, as brincadeiras predominavam.</p>
+                    <p>Apesar todas dificuldades por ser tudo novo, foi muito bom. Lembra que no nosso primeiro dia de aula passamos fome kakaka. Mas além disso, foi o dia que viramos amigos, eu lembro que você falou “Eu sou meio lelé  e junta com outro, pronto” kaakaka. Não sei porque, mas desde o momento que te conheci senti muita pureza e parecia que já eramos amigos faz tempo.</p>
+                </div>
+            </div>
+            <div class="retanguloM">
+                <div class="blur_efeito" id="fundo_rosa"></div>
+                
+                <img class="spinner" id="img_musica" src="img/marron5.avif">
+                <div id="info_music">
+                    <p id="titulo_music">Memories</p>
+                    <p id="titulo_autor">Marron 5</p>
+                </div>
+                <img id="ver_mais" src="img/more_before.png" onclick="verMais('fundo_g1')">
+            </div>
+        </section>
+
+        <section class="pagina" id="fundo_g2">
+            <audio id="musica2" src="audio/Perfect.mp3" preload="auto" loop style="display:none;"></audio>
+            <div class="retanguloF galeria" data-pasta="g2">
+                <h1 class="texto">Best Friends</h1>
+                <img class="img-galeria sumir borda-rosa-escuro" src="img/g2/1.jpg">
+                <div class="fotosP_g1">
+                    <div>
+                        <img class="img-galeria borda-rosa-escuro" id="img2_g1" src="img/g2/2.jpg">
+                        <img class="img-galeria borda-rosa-escuro" id="img3_g1" src="img/g2/3.jpg">
+                    </div>
+                    <img class="img-galeria borda-rosa-escuro" src="img/g2/4.jpg">
+                </div>
+                <div class="fotosB_g1 sumir">
+                    <img class="img-galeria borda-rosa-escuro" id="img5_g1" src="img/g2/5.jpg">
+                    <img class="img-galeria borda-rosa-escuro" id="img6_g1" src="img/g2/6.jpg">
+                </div>
+                <div id="transparente">
+                    <div class="blur_efeito_grande" id="fundo_rosa_escuro"></div>
+                
+                    <img class="spinner" id="img_musica2" src="img/edSheeran.jpg">
+                    <div id="info_music">
+                        <p id="titulo_music">Perfect</p>
+                        <p id="titulo_autor2" style="margin-left: 1.70vw;">Ed Sheeran</p>
+                    </div>
+                    <img id="ver_mais" src="img/more_after.png" onclick="ocultar('fundo_g2')">
+                </div>
+                <div class="explicacao">
+                    <p>Aqui nossa amizade tava ficando cada vez melhor: muitas risadas e muitos trabalhos feitos juntoss.</p>
+                    <p>Foi aqui que fizemos o pizzaria Renascer, Studio Leal, trabalho de FIFI e muitos outros.</p>
+                    <p>E foi uma época muito boa, passávamos muito tempo conversando, se zuando, brincando, ai mds foram muitas brincadeiras tendo você como dupla KAKAKAK mds.</p>
+                    <p>Agente não podia se ver que já começava rir, AKAKAK, acho que vc tem carinha de palhaço mesmo hein kakakaka.</p>
+                </div>
+            </div>
+            <div class="retanguloM">
+                <div class="blur_efeito" id="fundo_rosa_escuro"></div>
+                
+                <img class="spinner" id="img_musica" src="img/edSheeran.jpg">
+                <div id="info_music">
+                    <p id="titulo_music">Perfect</p>
+                    <p id="titulo_autor">Ed Sheeran</p>
+                </div>
+                <img id="ver_mais" src="img/more_before.png" onclick="verMais('fundo_g2')">
+            </div>
+        </section>
+
+        <section class="pagina" id="fundo_g3">
+            <audio id="musica3" src="audio/Symphony.mp3" preload="auto" loop style="display:none;"></audio>
+            <div class="retanguloF galeria" data-pasta="g3">
+                <h1 class="texto">Novos sentimentos</h1>
+                <img class="img-galeria sumir borda-roxa" src="img/g3/1.jpg">
+                <div class="fotosP_g1">
+                    <div>
+                        <img class="img-galeria borda-roxa" id="img2_g1" src="img/g3/2.jpg">
+                        <img class="img-galeria borda-roxa" id="img3_g1" src="img/g3/3.jpg">
+                    </div>
+                    <img class="img-galeria borda-roxa" src="img/g3/4.jpg">
+                </div>
+                <div class="fotosB_g1 sumir">
+                    <img class="img-galeria borda-roxa" id="img5_g1" src="img/g3/5.jpg">
+                    <img class="img-galeria borda-roxa" id="img6_g1" src="img/g3/6.jpg">
+                </div>
+                <div id="transparente">
+                    <div class="blur_efeito_grande" id="fundo_roxo"></div>
+                
+                    <img class="spinner" id="img_musica2" src="img/cleanBandit.webp">
+                    <div id="info_music">
+                        <p id="titulo_music">Symphony</p>
+                        <p id="titulo_autor">Clean Bandit</p>
+                    </div>
+                    <img id="ver_mais" src="img/more_after.png" onclick="ocultar('fundo_g3')">
+                </div>
+                <div class="explicacao">
+                    <p>Esses momentos são próximos do final do primeiro ano e são um dos melhores. Foram momentos de muitas risadas e que a sua companhia se tornava cada vez preciosa.</p>
+                    <p>Era muito legal conversar com tu, dar risada, tão gostosinho. Quando estávamos junto sempre era mais legal (pelo menos pra mim).</p>
+                    <p>E essa música eu interpreto ela sobre a harmonia das coisas, por mais que o vídeo clipe fale sobre luto kakaka. É uma época tão harmônica, tão em sintonia, cheia de fotos boas (eu tava lindo em todas akakak), que só consigo lembrar de coisas boas.</p>
+                </div>
+            </div>
+            <div class="retanguloM">
+                <div class="blur_efeito" id="fundo_roxo"></div>
+                
+                <img class="spinner" id="img_musica" src="img/cleanBandit.webp">
+                <div id="info_music">
+                    <p id="titulo_music">Symphony</p>
+                    <p id="titulo_autor">Clean Bandit</p>
+                </div>
+                <img id="ver_mais" src="img/more_before.png" onclick="verMais('fundo_g3')">
+            </div>
+        </section>
+
+        <section class="pagina" id="fundo_g4">
+            <audio id="musica4" src="audio/Firework.mp3" preload="auto" loop style="display:none;"></audio>
+            <div class="retanguloF galeria" data-pasta="g4">
+                <h1 class="texto">Apenas Amigos</h1>
+                <img class="img-galeria sumir borda-azul-claro" src="img/g4/1.jpg">
+                <div class="fotosP_g1">
+                    <div>
+                        <img class="img-galeria borda-azul-claro" id="img2_g1" src="img/g4/2.jpg">
+                        <img class="img-galeria borda-azul-claro" id="img3_g1" src="img/g4/3.jpg">
+                    </div>
+                    <img class="img-galeria borda-azul-claro" src="img/g4/4.jpg">
+                </div>
+                <div class="fotosB_g1 sumir">
+                    <img class="img-galeria borda-azul-claro" id="img5_g1" src="img/g4/5.jpg">
+                    <img class="img-galeria borda-azul-claro" id="img6_g1" src="img/g4/6.jpg">
+                </div>
+                <div id="transparente">
+                    <div class="blur_efeito_grande" id="fundo_azul_claro"></div>
+                
+                    <img class="spinner" id="img_musica2" src="img/firework.jpg">
+                    <div id="info_music">
+                        <p id="titulo_music">Firework</p>
+                        <p id="titulo_autor">Katy Parry</p>
+                    </div>
+                    <img id="ver_mais" src="img/more_after.png" onclick="ocultar('fundo_g4')">
+                </div>
+                <div class="explicacao">
+                    <p>Aqui é a época mais importante da nossa amizade, onde veio a grande pergunta... No início senti que perdemos nossa conexão e sla, ficou muito estranho.  Mas acho que era só um amadurecimento e no final das contas foi bom não termos seguido adiante com a ideia, éramos tão imaturos e talvez nossa amizade não teria sobrevivo.</p>
+                    <p>Foi nessa época também que tu saiu da Etec. E simplesmente nossos mundo viraram de cabeça pra baixo. No início fiquei muito desacreditado, achei que ia perder a amizade de uma pessoas mais importantes.</p>
+                    <p>E essa música fale sobre ser um foguete e voar e brilhar. Assim como você, que brilha sem parar.</p>
+                </div>
+            </div>
+            <div class="retanguloM">
+                <div class="blur_efeito" id="fundo_azul_claro"></div>
+                
+                <img class="spinner" id="img_musica" src="img/firework.jpg">
+                <div id="info_music">
+                    <p id="titulo_music">Firework</p>
+                    <p id="titulo_autor">Katy Parry</p>
+                </div>
+                <img id="ver_mais" src="img/more_before.png" onclick="verMais('fundo_g4')">
+            </div>
+        </section>
+
+        <section class="pagina" id="fundo_g5">
+            <audio id="musica5" src="audio/Só o começo.mp3" preload="auto" loop style="display:none;"></audio>
+            <div class="retanguloF galeria" data-pasta="g5">
+                <h1 class="texto">Juntos mas separados</h1>
+                <img class="img-galeria sumir borda-azul" src="img/g5/1.jpg">
+                <div class="fotosP_g1">
+                    <div>
+                        <img class="img-galeria borda-azul" id="img2_g1" src="img/g5/2.jpg">
+                        <img class="img-galeria borda-azul" id="img3_g1" src="img/g5/3.jpg">
+                    </div>
+                    <img class="img-galeria borda-azul" src="img/g5/4.jpg">
+                </div>
+                <div class="fotosB_g1 sumir">
+                    <img class="img-galeria borda-azul" id="img5_g1" src="img/g5/5.jpg">
+                    <img class="img-galeria borda-azul" id="img6_g1" src="img/g5/6.jpg">
+                </div>
+                <div id="transparente">
+                    <div class="blur_efeito_grande" id="fundo_azul"></div>
+                
+                    <img class="spinner" id="img_musica2" src="img/vocalLivre.jpg">
+                    <div id="info_music">
+                        <p id="titulo_music">Só o começo</p>
+                        <p id="titulo_autor2" style="margin-left: -4.75vw;">Vocal Livre</p>
+                    </div>
+                    <img id="ver_mais" src="img/more_after.png" onclick="ocultar('fundo_g5')">
+                </div>
+                <div class="explicacao">
+                    <p>Aqui nossa amizade enfrentou novos desafios: a distância e o tempo. Eu achava que era só questão de tempo para nossa amizade apenas cair no esquecimento da rotina.</p>
+                    <p>Mas ela se mostrou tão versátil, nos falámos quase todo dia e depois uma vez por semana, mas sempre se falando, sempre amigos.</p>
+                    <p>Essa música é especial tão especial pra mi quanto foi (ou é) pra você, ela reflete nossa parceria, quando estava para baixo você me mandou ela e fala sobre tantas coisas... Mas o mais importante, ela fala sobre ser apenas o começo e verdade, ainda temos muito o que viver e fico feliz pelo que vivemos até aqui.</p>
+                </div>
+            </div>
+            <div class="retanguloM">
+                <div class="blur_efeito" id="fundo_azul"></div>
+                
+                <img class="spinner" id="img_musica" src="img/vocalLivre.jpg">
+                <div id="info_music">
+                    <p id="titulo_music">Só o começo</p>
+                    <p id="titulo_autor">Vocal Livre</p>
+                </div>
+                <img id="ver_mais" src="img/more_before.png" onclick="verMais('fundo_g5')">
+            </div>
+        </section>
+
+        <section class="pagina" id="fundo_g6">
+            <div class="retanguloF galeria">
+                <h1 class="texto">Feliz Aniver</h1>
+                <div class="explicacao1">
+                    <p><span class="rosa">E o que eu quero mostrar com isso? Eu quero mostrar que foram 3 anos de amizade da sua e da minha vida e esse tempo nunca mais volta, não vamos viver os mesmos 3 anos de novo...</span></p>
+<p><span class="rosa-escuro">Porém, são apenas 3 anos dos 18 anos, e em pouco tempo você se tornou umas das pessoas mais valiosas e memoráveis da minha trajetória.</span></p>
+<p><span class="roxo">Apesar de todas dificuldades, percebi que você sempre foi muito positiva e otimista, além de ser uma ótima amiga.</span></p>
+<p><span class="azul-claro">Então eu desejo apenas que você colha tudo que você plantou, que são coisas boas como: empatia, amizade, bondade e muitas outras.</span></p>
+<p><span class="azul-escuro">Ontem você fez 18 aninhos e oficialmente uma adulta, eu acredito que você tantas coisas boas para viver e superar. Não importa se você vai virar advogada, jornalista ou astronauta, eu só desejo que você realize seus sonhos e continue sendo Vhibes Vibes.</span></p>
+<p><span class="rosa">Não sei se seremos amigos para sempre, mas você vai ter um espaço nas minhas lembranças e sou grato por ter te conhecido.</span></p>
+<p><span class="rosa-escuro">Feliz 18 aninhos e que venha muito mais!</span></p>
+                </div>
+            </div>
+            <div class="retanguloM">
+                <div class="blur_efeito" id="fundo_azul"></div>
+                <img class="spinner" id="img_musica" src="img/vocalLivre.jpg">
+                <div id="info_music">
+                    <p id="titulo_music">Só o começo</p>
+                    <p id="titulo_autor">Vocal Livre</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
